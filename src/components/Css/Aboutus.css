@@ -1,0 +1,38 @@
+.about-banner {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+}
+
+.about-banner h1 {
+  margin-bottom: 10px;
+}
+
+.breadcrumb-text {
+  font-size: 1.1rem;
+}
+
+
+.welcome {
+  background-color: #f3f4f6; /* Light grey like in the image */
+  color: #2c3e50; /* Dark text for readability */
+}
+
+.welcome .text-primary {
+  color: #002868 !important; /* SHAFEENA Blue */
+}
+
+.welcome .text-warning {
+  color: #f8a300 !important; /* ELECTRICALS Orange */
+}
+
+.welcome .lead {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  font-size: 1.2rem;
+}
+.welcome ul{
+    font-size: 1.1rem;
+}

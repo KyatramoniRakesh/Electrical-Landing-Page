@@ -1,0 +1,21 @@
+.vision-mission-wrapper {
+  background-color: #f3f4f6;
+}
+
+.left-card {
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.gradient-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  background: linear-gradient(to bottom, #d72638, #fbb034);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mission-card {
+  background-color: #f5a623;
+  color: #1a1a1a;
+}

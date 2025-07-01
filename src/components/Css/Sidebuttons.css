@@ -1,0 +1,89 @@
+.download-btn-wrapper {
+  position: fixed;
+  top: 30%;
+  right: 0;
+  z-index: 999;
+}
+
+.download-btn {
+  background-color: #002366;
+  color: white;
+  padding: 12px;
+  border-radius: 30px 0 0 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: width 0.3s ease, padding 0.3s ease;
+  overflow: hidden;
+  width: 50px; 
+  height: 50px;
+  justify-content: center;
+  position: relative;
+}
+
+.download-btn .text {
+  opacity: 0;
+  max-width: 0;
+  transition: max-width 0.3s ease, opacity 0.3s ease;
+  overflow: hidden;
+}
+
+.download-btn:hover {
+  width: 150px;
+  justify-content: start;
+  padding-left: 16px;
+}
+
+.download-btn:hover .text {
+  opacity: 1;
+  max-width: 100px;
+}
+
+
+.side-buttons {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 1000;
+}
+
+.whatsapp-btn,
+.scroll-top-btn {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #25d366; 
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.scroll-top-btn {
+  background-color: #002366; 
+}
+
+.whatsapp-btn:hover,
+.scroll-top-btn:hover {
+  transform: scale(1.1);
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+.download-btn.blink {
+  animation: blink 2s infinite;
+}

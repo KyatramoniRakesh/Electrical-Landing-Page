@@ -1,0 +1,17 @@
+.label-card {
+  border-left: 5px solid;
+  border-image: linear-gradient(to bottom, #ff0080, #ff8c00, #ffff00) 1;
+  background-color: #fff;
+  height: 100%;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.bg-darkblue {
+  background-color: #012269 !important;
+  color: white;
+}
+
+.title{
+    font-size: 2rem;
+}

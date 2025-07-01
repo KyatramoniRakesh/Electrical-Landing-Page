@@ -1,0 +1,27 @@
+.card-img-top {
+  height: 350px;
+  object-fit: cover;
+}
+
+.cat_btn {
+  background-color: #002366;
+  color: white;
+  border: none;
+  transition: 0.3s ease all;
+  font-size: 1rem;
+  padding: 10px 20px;
+}
+
+.cat_btn:hover {
+  background-color: #001a4d; 
+  color: #fff;
+  transform: scale(1.05);
+}
+.cat_btn.btn-warning {
+  background-color: #f4a300; 
+  color: #fff;
+}
+
+.cat_btn.rounded-pill {
+  border-radius: 50rem;
+}

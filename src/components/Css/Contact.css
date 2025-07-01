@@ -1,0 +1,45 @@
+.about-banner {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+}
+
+.about-banner h1 {
+  margin-bottom: 10px;
+}
+
+/* src/components/Jsx/ContactForm.css */
+.contact-container {
+  background-color: #f6f7fa;
+  color: #1a1a1a;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.input-border {
+  border: 2px solid #0b2a7c !important;
+  border-radius: 8px;
+  font-weight: 500;
+  color: #000;
+}
+
+.input-border::placeholder {
+  color: #a9a9a9;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.contact-details {
+  padding-left: 20px;
+  font-size: 16px;
+}
+/* ContactDetails.css or global if you're using Bootstrap properly */
+.contact-details h6 {
+  color: #002868; /* Dark navy */
+}
+
+.contact-details p {
+  font-size: 16px;
+  color: #2c2c2c;
+}
