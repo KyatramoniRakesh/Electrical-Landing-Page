@@ -1,7 +1,7 @@
 import React from 'react'
 import Products from './Products'
 import Footer from '../../Footer'
-import bannerImg from '../../../images/Oip.jpeg'
+import bannerImg from '../../../images/P.jpg'
 
 const Product = () => {
   return (

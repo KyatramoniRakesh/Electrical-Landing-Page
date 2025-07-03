@@ -25,8 +25,8 @@ const Contact = () => {
                     <span className="text-warning fw-bold">ELECTRICALS</span> is the market leader in the Supplier of Electrical Materials. Our setup is situated in Hyderabad.
                 </h4>
 
-                <div className="row g-4">
-                    <div className="col-md-6 text-start">
+                <div className="row g-4" >
+                    <div className="col-md-6 text-start" id='scale-up-center'>
                         <form>
                             <div className="row mb-3 ">
                                 <div className="col-md-6">
@@ -61,7 +61,6 @@ const Contact = () => {
                         </form>
                     </div>
 
-                    {/* Contact Info */}
                     <div className="col-md-6 contact-details py-4 text-start">
                         <h5 className='text-start '>
                             <span className="text-primary fw-bold ">SHAFEENA </span>

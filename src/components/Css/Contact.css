@@ -10,7 +10,6 @@
   margin-bottom: 10px;
 }
 
-/* src/components/Jsx/ContactForm.css */
 .contact-container {
   background-color: #f6f7fa;
   color: #1a1a1a;
@@ -34,12 +33,36 @@
   padding-left: 20px;
   font-size: 16px;
 }
-/* ContactDetails.css or global if you're using Bootstrap properly */
 .contact-details h6 {
-  color: #002868; /* Dark navy */
+  color: #002868; 
 }
 
 .contact-details p {
   font-size: 16px;
   color: #2c2c2c;
+}
+
+#scale-up-center {
+	-webkit-animation: scale-up-center 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }

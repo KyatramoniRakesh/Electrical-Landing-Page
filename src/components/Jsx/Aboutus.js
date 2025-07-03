@@ -1,9 +1,8 @@
 import React from 'react'
 import About from '../About'
 import Footer from '../Footer'
-import bannerImg from '../../images/About.png'
+import bannerImg from '../../images/Ab.jpg'
 import '../Css/Aboutus.css'
-// import AboutCards from './ABoutCard'
 import Cards from './Cards/Cards'
 const Aboutus = () => {
   return (

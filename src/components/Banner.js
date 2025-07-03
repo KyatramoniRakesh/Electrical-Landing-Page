@@ -1,5 +1,5 @@
 import React from 'react'
-import bannerImage from '../images/banner.webp'; 
+import bannerImage from '../images/B.jpg'; 
 import './Banner.css'
 const Banner = () => {
   return (
@@ -7,8 +7,8 @@ const Banner = () => {
       className="banner d-flex align-items-center justify-content-center text-center"
       style={{ backgroundImage: `url(${bannerImage})` }}
     >
-      <div className="text-white content-box px-3">
-        <h1 className="display-5 fw-bold text-white">
+      <div className=" content-box px-3">
+        <h1 className="display-5 fw-bold ">
           Electrical Solutions & Supply to Residentials,<br />
           Commercial & Industries.
         </h1>

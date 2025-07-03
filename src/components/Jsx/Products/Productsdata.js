@@ -38,7 +38,7 @@ const Productsdata = [
     category: 'EARTH MATERIAL',
     categorySlug: 'earth-material',
     image: require('../../../images/GI-Earthing-Strip-Plate.jpg'),
-    categoryBanner: require('../../../images/cabletray.jpg'),
+    categoryBanner: require('../../../images/earthingstrips.jpg'),
     description:
       ' Iron (G.I) strips and plates are used for grounding applications to ensure safe electrical installations. Corrosion resistant and tested for performance.',
   },
@@ -49,7 +49,7 @@ const Productsdata = [
     category: 'EARTH MATERIAL',
     categorySlug: 'earth-material',
     image: require('../../../images/AL strips (1).jpg'),
-    categoryBanner: require('../../../images/cabletray.jpg'),
+    categoryBanner: require('../../../images/earthingstrips.jpg'),
     description:
       'Our aluminum strips are lightweight, corrosion-resistant, and ideal for earthing and electrical applications in various industrial setups.',
   },
@@ -60,7 +60,7 @@ const Productsdata = [
     category: 'EARTH MATERIAL',
     categorySlug: 'earth-material',
     image: require('../../../images/gi-wire-485.jpg'),
-    categoryBanner: require('../../../images/cabletray.jpg'),
+    categoryBanner: require('../../../images/earthingstrips.jpg'),
     description:
       'High-tensile Galvanized Iron (GI) wires are used for fencing, earthing, and other electrical purposes. Available in multiple gauges.',
   },
@@ -71,7 +71,7 @@ const Productsdata = [
     category: 'GRATING',
     categorySlug: 'grating',
     image: require('../../../images/chainlink.jpg'),
-    categoryBanner: require('../../../images/cabletray.jpg'),
+    categoryBanner: require('../../../images/Grat.jpg'),
     description:
       'Strong and durable chain link fences made from high-quality wire, used for boundary protection and enclosure purposes.',
   },
@@ -82,7 +82,7 @@ const Productsdata = [
     category: 'GRATING',
     categorySlug: 'grating',
     image: require('../../../images/angle pole.jpg'),
-    categoryBanner: require('../../../images/cabletray.jpg'),
+    categoryBanner: require('../../../images/Grat.jpg'),
     description:
       'Robust metal posts in angle and pole shapes for support in fencing and grating systems. Hot-dip galvanized for enhanced lifespan.',
   },
@@ -93,7 +93,7 @@ const Productsdata = [
     category: 'LIGHT POLES',
     categorySlug: 'light-poles',
     image: require('../../../images/cutomizedlightpoles.jpg'),
-    categoryBanner: require('../../../images/cabletray.jpg'),
+    categoryBanner: require('../../../images/LightPoles.jpg'),
     description:
       'We design and fabricate custom poles for lighting, signage, and utility applications tailored to client specifications.',
   },
@@ -104,7 +104,7 @@ const Productsdata = [
     category: 'LIGHT POLES',
     categorySlug: 'light-poles',
     image: require('../../../images/solarpoles.jpg'),
-    categoryBanner: require('../../../images/cabletray.jpg'),
+    categoryBanner: require('../../../images/LightPoles.jpg'),
     description:
       'Our solar module mounting structures are designed for optimal tilt and strength. Ideal for both rooftop and ground-mounted solar panel systems.',
   },

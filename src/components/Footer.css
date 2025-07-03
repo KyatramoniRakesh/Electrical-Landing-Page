@@ -19,6 +19,7 @@
 
 .footer a:hover {
   text-decoration: underline;
+  color: #f5a623;
 }
 
 .footer-icon {
@@ -42,7 +43,9 @@
 #icon{
     color: blue;
 }
-
+#icon a:hover{
+  color: #f5a623;
+}
 
 .developer-link {
   color: #fff;

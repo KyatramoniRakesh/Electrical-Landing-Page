@@ -1,5 +1,10 @@
+.navbar{
+  padding: 0;
+    
+}
+
 .custom-bg {
-  background-color: #002366; /* Same deep blue as screenshot */
+  background-color: #002366; /* Deep blue */
 }
 
 .navbar-nav .nav-link {
