@@ -1,14 +1,14 @@
 import React from 'react';
 import './Services.css';
-import cs from "../images/cs.png";
-import rs from "../images/rs.webp";
-import is from "../images/is.webp";
+import cs from "../images/S.jpg";
+import rs from "../images/S1.jpg";
+import is from "../images/S2.jpg";
 
 const Services = () => {
   return (
     <div className="services-section py-5 bg-light">
       <div className="container">
-        <h2 className="text-center fw-bold mb-5 text-primary">Our Services</h2>
+        <h2 className="text-center fw-bold mb-5 text-black">Our Services</h2>
         <div className="row g-4 justify-content-center">
 
           <div className="col-md-6 col-lg-4">

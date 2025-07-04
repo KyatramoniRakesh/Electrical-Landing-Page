@@ -34,7 +34,7 @@ const Footer = () => {
 
                     <div className="col-md-3">
                         <h5 className="footer-title">CONTACT</h5>
-                        <p><FaMapMarkerAlt className="footer-icon" /> B8/714, Lig Venture-2, 4th Phase, KPHB Colony,<br />Hyderabad, Telangana-500085</p>
+                        <p><FaMapMarkerAlt className="footer-icon" /> 2nd Floor,AK Building, KP Street, Chivarasta,Jadcherla,<br />Mahabubnagar, Telangana-509406</p>
                         <p><FaPhoneAlt className="footer-icon" />
                             <a href="tel:+919121949924" className="text-decoration-none text-white">+91 9121949924</a><br />
                             <a href="tel:+919991112229" className="text-decoration-none text-white num">+91 9991112229</a>
