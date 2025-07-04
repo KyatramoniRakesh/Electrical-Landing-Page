@@ -21,7 +21,7 @@ const Aboutus = () => {
       <div className="welcome py-5 text-start">
         <div className="container">
           <h1 className="fw-bold mb-3">
-            Welcome to <span className="text-primary">SHAFEENA</span>{' '}
+            Welcome to <span className="text-primary">ELECTROSTRUCT</span>{' '}
             <span className="text-warning">ELECTRICALS</span>
           </h1>
           <h3 className="fw-semibold text-secondary mb-4">
@@ -29,7 +29,7 @@ const Aboutus = () => {
           </h3>
 
           <h4 className="lead">
-            At <span className="text-primary fw-semibold">SHAFEENA</span>{' '}
+            At <span className="text-primary fw-semibold">ELECTROSTRUCT</span>{' '}
             <span className="text-warning fw-semibold">ELECTRICALS</span>, we
             specialize in providing high-quality electrical products and solutions
             for industrial, commercial, and residential projects. With a
@@ -55,5 +55,4 @@ const Aboutus = () => {
     </div>
   )
 }
-
 export default Aboutus

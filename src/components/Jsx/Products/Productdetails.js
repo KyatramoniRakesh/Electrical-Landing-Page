@@ -61,7 +61,6 @@ const ProductDetails = () => {
 
       <div className="container py-5">
         <div className="row">
-          {/* Sidebar: only sub-products of this category */}
           <div className="col-md-3">
             <div className="sticky-top" style={{ top: '100px' }}>
               {categoryProducts.map((product) => (
@@ -78,7 +77,6 @@ const ProductDetails = () => {
             </div>
           </div>
 
-          {/* Product Details */}
           <div className="col-md-9">
             <div
               id={selectedProduct.slug}
@@ -106,7 +104,6 @@ const ProductDetails = () => {
         </div>
       </div>
 
-      {/* Enquiry Modal */}
       <Enquiry
         show={showModal}
         handleClose={handleClose}
