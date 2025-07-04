@@ -46,7 +46,16 @@ const Footer = () => {
 
                     <div className="col-md-3">
                         <h5 className="footer-title">ROUTE MAP</h5>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d27552.10357424881!2d78.391818!3d17.471284!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb913cfd05700f%3A0x4a628d564e87d774!2s630%20LIG%20Flats%20Venture%202!5e1!3m2!1sen!2sin!4v1750936935290!5m2!1sen!2sin"
+                        {/* <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d27552.10357424881!2d78.391818!3d17.471284!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb913cfd05700f%3A0x4a628d564e87d774!2s630%20LIG%20Flats%20Venture%202!5e1!3m2!1sen!2sin!4v1750936935290!5m2!1sen!2sin"
+                            width="100%"
+                            height="120"
+                            style={{ border: 0 }}
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+
+                        </iframe> */}
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15281.154789467386!2d78.13531256126484!3d16.76230638309833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bca3014afe84e05%3A0xebefc10297073153!2sJadcherla%2C%20Telangana%20509301!5e0!3m2!1sen!2sin!4v1751634237007!5m2!1sen!2sin"
                             width="100%"
                             height="120"
                             style={{ border: 0 }}
