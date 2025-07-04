@@ -1,20 +1,21 @@
 import React from 'react';
-import logo from '../images/L2.svg';
+import { Link, NavLink } from 'react-router-dom';
 import './Navbar.css';
-import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark custom-bg sticky-top">
       <div className="container px-3 px-md-5">
-        <a className="navbar-brand" href="#">
+        <NavLink className="navbar-brand d-flex align-items-center" to="/">
           <img
-            src={logo}
-            alt="Shafeena Electricals"
-            className="d-inline-block align-middle"
-            style={{ height: '55px' }}
+            src="https://cdn-icons-png.flaticon.com/512/1041/1041916.png"
+            alt="Mobile World"
+            style={{ height: '50px' }}
           />
-        </a>
+          <span className="ms-2 text-warning fw-bold fs-4">
+            Mobile<span className="text-white">World</span>
+          </span>
+        </NavLink>
 
         <button
           className="navbar-toggler"
@@ -31,53 +32,33 @@ const Navbar = () => {
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav gap-4 fs-5 fw-semibold">
             <li className="nav-item">
-              <Link className="nav-link text-white" to="/">Home</Link>
+              <NavLink className="nav-link" to="/">Home</NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-white" to="/about">About us</Link>
+              <NavLink className="nav-link" to="/about">About us</NavLink>
             </li>
 
+            {/* Dropdown FIXED */}
             <li className="nav-item dropdown">
-  <div className="d-flex align-items-center">
-    {/* Products main link */}
-    <Link className="nav-link text-white" to="/product">
-      Products
-    </Link>
-
-    {/* Dropdown toggle with correct structure */}
-    <a
-      className="nav-link dropdown-toggle dropdown-toggle-split text-white"
-      href="#"
-      id="productsDropdown"
-      role="button"
-      data-bs-toggle="dropdown"
-      aria-expanded="false"
-    >
-      <span className="visually-hidden">Toggle Dropdown</span>
-    </a>
-
-    {/* Dropdown menu must be next sibling */}
-    <ul className="dropdown-menu" aria-labelledby="productsDropdown">
-      <li>
-        <Link className="dropdown-item" to="/products/cable-trays">Cable Trays</Link>
-      </li>
-      <li>
-        <Link className="dropdown-item" to="/products/earth-material">Earthing Materials</Link>
-      </li>
-      <li>
-        <Link className="dropdown-item" to="/products/grating">Gratings</Link>
-      </li>
-      <li>
-        <Link className="dropdown-item" to="/products/light-poles">Light Poles</Link>
-      </li>
-    </ul>
-  </div>
-</li>
-
-
+              <Link
+                className="nav-link dropdown-toggle"
+                to="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Products
+              </Link>
+              <ul className="dropdown-menu">
+                <li><Link className="dropdown-item" to="/products/smartphones">Smartphones</Link></li>
+                <li><Link className="dropdown-item" to="/products/tablets">Tablets</Link></li>
+                <li><Link className="dropdown-item" to="/products/accessories">Accessories</Link></li>
+                <li><Link className="dropdown-item" to="/products/wearables">Wearables</Link></li>
+              </ul>
+            </li>
 
             <li className="nav-item">
-              <Link className="nav-link text-white" to="/contact">Contact</Link>
+              <NavLink className="nav-link" to="/contact">Contact</NavLink>
             </li>
           </ul>
         </div>

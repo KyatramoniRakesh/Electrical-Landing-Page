@@ -52,8 +52,8 @@ const Contact = () => {
     });
 
     if (Object.keys(formErrors).length === 0) {
-      alert('Form submitted!');
-      // Send to backend here
+      alert('Form submitted successfully!');
+      // Backend logic here
     } else {
       setErrors(formErrors);
     }
@@ -75,8 +75,8 @@ const Contact = () => {
 
       <div className="container py-5 contact-container">
         <h4 className="text-center mb-4">
-          <span className="text-primary fw-bold">ELECTROSTRUCT </span>
-          <span className="text-warning fw-bold">ELECTRICALS</span> is the market leader in the Supplier of Electrical Materials. Our setup is situated in Hyderabad.
+          <span className="text-primary fw-bold">MOBILE</span>
+          <span className="text-warning fw-bold">WORLD</span> — Your Trusted Smartphone Partner in Hyderabad.
         </h4>
 
         <div className="row g-4">
@@ -162,8 +162,8 @@ const Contact = () => {
 
           <div className="col-md-6 contact-details py-4 text-start">
             <h5>
-              <span className="text-primary fw-bold">ELECTROSTRUCT</span>
-              <span className="text-warning fw-bold">ELECTRICALS</span>
+              <span className="text-primary fw-bold">MOBILE</span>
+              <span className="text-warning fw-bold">WORLD</span>
             </h5>
 
             <div className="row mt-3">
@@ -171,7 +171,7 @@ const Contact = () => {
                 <h6 className="fw-bold">Postal Address</h6>
                 <p className="mb-1">B8/714, Lig Venture-2, 4th Phase,</p>
                 <p className="mb-1">KPHB Colony, Kukatpally,</p>
-                <p className="mb-3">Hyderabad, Telangana-500085</p>
+                <p className="mb-3">Hyderabad, Telangana - 500085</p>
 
                 <h6 className="fw-bold">Phone</h6>
                 <p className="mb-1">+91 9121949924</p>
@@ -179,8 +179,8 @@ const Contact = () => {
               </div>
 
               <div className="col-sm-6">
-                <h6 className="fw-bold">General Enquiries</h6>
-                <p>rakesh.rk1306@gmail.com</p>
+                <h6 className="fw-bold">Customer Support</h6>
+                <p>support@mobileworld.in</p>
               </div>
             </div>
           </div>

@@ -1,40 +1,41 @@
-import React from 'react'
-import './Services.css'
-import cs from "../images/cs.png"
-import rs from "../images/rs.webp"
-import is from "../images/is.webp"
+import React from 'react';
+import './Services.css';
+import cs from "../images/cs.png";
+import rs from "../images/rs.webp";
+import is from "../images/is.webp";
+
 const Services = () => {
-    return (
-        <div class="services-section py-2 bg-light">
-            <div class="container">
-                <h2 class="text-center fw-semibold mb-4">OUR SERVICES</h2>
-                <div class="row g-5 justify-content-center">
+  return (
+    <div className="services-section py-5 bg-light">
+      <div className="container">
+        <h2 className="text-center fw-bold mb-5 text-primary">Our Services</h2>
+        <div className="row g-4 justify-content-center">
 
-                    <div class="col-md-6 col-lg-4">
-                        <div class="service-card position-relative">
-                            <img src={cs} class="img-fluid w-100" alt="Commercial Services" />
-                            <div class="service-label">Commercial Services</div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4">
-                        <div class="service-card position-relative">
-                            <img src={rs} class="img-fluid w-100" alt="Residential Services" />
-                            <div class="service-label">Residential Services</div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4">
-                        <div class="service-card position-relative">
-                            <img src={is} class="img-fluid w-100" alt="Industrial Services" />
-                            <div class="service-label">Industrial Services</div>
-                        </div>
-                    </div>
-
-                </div>
+          <div className="col-md-6 col-lg-4">
+            <div className="service-card position-relative">
+              <img src={cs} className="img-fluid w-100" alt="Retail Store Services" />
+              <div className="service-label">Retail Store Services</div>
             </div>
-        </div>
-    )
-}
+          </div>
 
-export default Services
+          <div className="col-md-6 col-lg-4">
+            <div className="service-card position-relative">
+              <img src={rs} className="img-fluid w-100" alt="Online Sales & Delivery" />
+              <div className="service-label">Online Sales & Delivery</div>
+            </div>
+          </div>
+
+          <div className="col-md-6 col-lg-4">
+            <div className="service-card position-relative">
+              <img src={is} className="img-fluid w-100" alt="Device Repairs & Support" />
+              <div className="service-label">Device Repairs & Support</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Services;

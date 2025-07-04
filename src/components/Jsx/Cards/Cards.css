@@ -1,10 +1,15 @@
+.cards-section {
+  padding: 3rem 1rem;
+  background-color: #f4f4f4;
+}
+
 .label-card {
   border-left: 5px solid;
   border-image: linear-gradient(to bottom, #ff0080, #ff8c00, #ffff00) 1;
   background-color: #fff;
-  height: 100%;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.8rem;
+  min-height: 100%;
 }
 
 .bg-darkblue {
@@ -12,6 +17,19 @@
   color: white;
 }
 
-.title{
-    font-size: 2rem;
+.title {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .label-card {
+    font-size: 1.4rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  .cards-section {
+    padding: 2rem 1rem;
+  }
 }

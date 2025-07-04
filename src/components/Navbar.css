@@ -1,20 +1,95 @@
-.navbar{
-  padding: 0;
-    
-}
-
 .custom-bg {
-  background-color: #002366; /* Deep blue */
+  background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
 }
 
 .navbar-nav .nav-link {
-  transition: color 0.3s ease;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
 }
 
-.navbar-nav .nav-link:hover {
-  color: #ffcc00; /* Optional hover color */
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #00ffb3 !important; 
 }
 
 .dropdown-menu {
-  border-radius: 6px;
+  border-radius: 8px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  animation: fadeIn 0.3s ease;
+  background-color: #ffffff;
+}
+
+.dropdown-menu .dropdown-item {
+  color: #333;
+  transition: background 0.2s, color 0.2s;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #00ffb3;
+  color: #fff;
+}
+/* Dropdown Items */
+.dropdown-menu {
+  border-radius: 8px;
+  padding: 0.5rem 0;
+  background-color: #ffffff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  min-width: 180px;
+  animation: fadeIn 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+/* Each item inside dropdown */
+.dropdown-menu .dropdown-item {
+  padding: 10px 16px;
+  font-size: 16px;
+  color: #002366;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #002366;
+  color: #fff;
+}
+
+/* For accessibility and active state */
+.dropdown-menu .dropdown-item:focus,
+.dropdown-menu .dropdown-item.active {
+  background-color: #001b4d;
+  color: #fff;
+  outline: none;
+}
+
+/* Dropdown animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.gradient-text {
+  background: linear-gradient(45deg, #00ffb3, #00d0ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.highlight-text {
+  color: #00ffb3;
 }

@@ -1,0 +1,20 @@
+.about-banner {
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  padding: 2rem;
+}
+
+@media (max-width: 768px) {
+  .about-banner {
+    height: 40vh;
+  }
+
+  .about-banner h1 {
+    font-size: 2rem;
+  }
+
+  .breadcrumb-text {
+    font-size: 0.9rem;
+  }
+}

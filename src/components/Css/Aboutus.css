@@ -14,25 +14,33 @@
   font-size: 1.1rem;
 }
 
-
+/* Updated welcome section */
 .welcome {
-  background-color: #f3f4f6; /* Light grey like in the image */
-  color: #2c3e50; /* Dark text for readability */
+  background-color: #f9fafc; /* very light grey for mobile theme */
+  color: #1f2937; /* dark slate text for contrast */
 }
 
 .welcome .text-primary {
-  color: #002868 !important; /* SHAFEENA Blue */
+  color: #0d6efd !important; /* Bootstrap Blue for Mobile */
 }
 
 .welcome .text-warning {
-  color: #f8a300 !important; /* ELECTRICALS Orange */
+  color: #f59e0b !important; /* Warm amber/yellow */
 }
 
 .welcome .lead {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  font-weight: 500;
+}
+
+.welcome ul {
   font-size: 1.1rem;
   line-height: 1.7;
-  font-size: 1.2rem;
+  padding-left: 1rem;
+  margin-top: 1rem;
 }
-.welcome ul{
-    font-size: 1.1rem;
+
+.welcome ul li {
+  margin-bottom: 10px;
 }

@@ -1,9 +1,11 @@
-import React from 'react'
-import About from '../About'
-import Footer from '../Footer'
-import bannerImg from '../../images/Ab.jpg'
-import '../Css/Aboutus.css'
-import Cards from './Cards/Cards'
+// src/pages/Aboutus.js
+import React from 'react';
+import About from '../About';
+import Footer from '../Footer';
+import bannerImg from '../../images/AB1.jpg';
+import '../Css/Aboutus.css';
+import Cards from './Cards/Cards';
+
 const Aboutus = () => {
   return (
     <div>
@@ -18,41 +20,41 @@ const Aboutus = () => {
           <span className="text-white">About us</span>
         </p>
       </div>
+
       <div className="welcome py-5 text-start">
         <div className="container">
           <h1 className="fw-bold mb-3">
-            Welcome to <span className="text-primary">ELECTROSTRUCT</span>{' '}
-            <span className="text-warning">ELECTRICALS</span>
+            Welcome to <span className="text-primary">Mobile</span><span className="text-warning">World</span>
           </h1>
           <h3 className="fw-semibold text-secondary mb-4">
-            Your Trusted Partner in Electrical Solutions
+            Your Trusted Partner in Smart Technology
           </h3>
 
           <h4 className="lead">
-            At <span className="text-primary fw-semibold">ELECTROSTRUCT</span>{' '}
-            <span className="text-warning fw-semibold">ELECTRICALS</span>, we
-            specialize in providing high-quality electrical products and solutions
-            for industrial, commercial, and residential projects. With a
-            commitment to excellence and customer satisfaction, we are your
-            reliable source for:
+            At <span className="text-primary fw-semibold">Mobile</span><span className="text-warning fw-semibold">World</span>, we specialize in delivering the latest and most reliable mobile electronics and accessories. Whether you're looking for cutting-edge smartphones, stylish wearables, or powerful tablets, we've got you covered.
           </h4>
 
           <ul className="mt-3 list-unstyled">
             <li>
-              <strong>Cable Trays:</strong> Durable, efficient, and customizable solutions for cable management.
+              <strong>Smartphones:</strong> Explore a wide range of Android and iOS phones from top global brands.
             </li>
             <li>
-              <strong>Earth Materials:</strong> Top-quality grounding products to ensure safety and compliance.
+              <strong>Tablets:</strong> Performance-focused tablets for productivity, gaming, or media consumption.
             </li>
             <li>
-              <strong>Light Poles:</strong> Sturdy and aesthetically designed poles for all lighting needs.
+              <strong>Wearables:</strong> Smartwatches and fitness trackers that keep you connected and active.
+            </li>
+            <li>
+              <strong>Accessories:</strong> Chargers, earphones, cases, and everything to complete your mobile setup.
             </li>
           </ul>
         </div>
       </div>
-      <Cards/>
+
+      <Cards />
       <Footer />
     </div>
-  )
-}
-export default Aboutus
+  );
+};
+
+export default Aboutus;
